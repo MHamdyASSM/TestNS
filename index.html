@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio - [Your Name]</title>
+    <style>
+        /* Basic Reset and Variables */
+        :root {
+            --vodafone-red: #E60000;
+            --light-grey: #f8f8f8;
+            --dark-text: #333;
+            --font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: var(--dark-text);
+        }
+
+        /* Mobile Container - Ensures content stays within a clean column */
+        .container {
+            max-width: 600px; 
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Header & Logo */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 15px;
+            border-bottom: 3px solid var(--vodafone-red);
+        }
+        .logo {
+            width: 30px; /* Small logo for mobile corner */
+        }
+        .header h1 {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        /* Introduction Section */
+        .intro {
+            text-align: center;
+            padding: 40px 15px 20px;
+        }
+        .intro h2 {
+            font-size: 1.8em;
+            color: var(--vodafone-red);
+            margin-bottom: 5px;
+        }
+        .intro p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        /* Achievement Modules */
+        .achievements-grid {
+            padding: 20px 0;
+        }
+        .achievements-grid h3 {
+            text-align: center;
+            font-size: 1.4em;
+            border-bottom: 2px solid var(--light-grey);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .achievement-card {
+            display: block; /* Make the whole card clickable */
+            background-color: var(--light-grey);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            padding: 15px;
+            text-decoration: none;
+            color: var(--dark-text);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .achievement-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .achievement-card h4 {
+            color: var(--vodafone-red);
+            margin: 0 0 5px 0;
+            font-size: 1.1em;
+        }
+        .achievement-card p {
+            font-size: 0.9em;
+            margin: 0;
+            color: #666;
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 20px 0 40px;
+            text-align: center;
+        }
+        .skills-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .skill-item {
+            background-color: var(--vodafone-red);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="vodafone_logo.png" alt="Vodafone Logo" class="logo">
+        <h1>[Your Name]</h1>
+    </div>
+
+    <div class="container">
+        <div class="intro">
+            <h2>Welcome! I'm [Your Name]</h2>
+            <p>Senior Manager specializing in **Digital Transformation** and **Operational Efficiency**. Driving high-impact, cross-functional projects within Vodafone.</p>
+        </div>
+
+        <div class="achievements-grid">
+            <h3>My Key Achievements</h3>
+
+            <a href="project-dt.html" class="achievement-card">
+                <h4>🚀 Digital Transformation Project</h4>
+                <p>Successfully migrated 500K customers to the new digital self-service platform.</p>
+            </a>
+
+            <a href="project-cost.html" class="achievement-card">
+                <h4>💰 Cost Reduction Initiative (Opex)</h4>
+                <p>Identified and implemented savings of €5M annually across network operations.</p>
+            </a>
+
+            <a href="project-cx.html" class="achievement-card">
+                <h4>📈 Customer Experience Uplift</h4>
+                <p>Led a task force that improved the Net Promoter Score (NPS) by 15 points in Q3.</p>
+            </a>
+            
+            <a href="project-security.html" class="achievement-card">
+                <h4>🛡️ Security Compliance Program</h4>
+                <p>Achieved 100% compliance with new GDPR standards six weeks ahead of schedule.</p>
+            </a>
+        </div>
+
+        <div class="skills">
+            <h3>Core Skills</h3>
+            <div class="skills-list">
+                <span class="skill-item">Project Management</span>
+                <span class="skill-item">Agile Methodologies</span>
+                <span class="skill-item">Financial Modeling</span>
+                <span class="skill-item">Cross-Functional Leadership</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
