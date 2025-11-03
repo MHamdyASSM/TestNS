@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievement Detail: Digital Transformation</title>
+    <style>
+        /* ... (Copy all CSS from the index.html file's <style> block here) ... */
+        :root {
+            --vodafone-red: #E60000;
+            --light-grey: #f8f8f8;
+            --dark-text: #333;
+            --font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: var(--dark-text);
+        }
+
+        .container {
+            max-width: 600px; 
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 15px;
+            border-bottom: 3px solid var(--vodafone-red);
+        }
+        .logo {
+            width: 30px; 
+        }
+        .header h1 {
+            font-size: 1em;
+            margin: 0;
+        }
+        .header a {
+            text-decoration: none;
+            color: var(--vodafone-red);
+            font-weight: bold;
+        }
+
+        /* Detail Content Styling */
+        .detail-content {
+            padding: 20px 0;
+        }
+        .detail-content h2 {
+            color: var(--vodafone-red);
+            font-size: 1.6em;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        .detail-content h4 {
+            color: var(--dark-text);
+            border-left: 3px solid var(--vodafone-red);
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        .detail-content ul {
+            padding-left: 20px;
+        }
+        .result-box {
+            background-color: var(--light-grey);
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .result-box strong {
+            color: var(--vodafone-red);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="vodafone_logo.png" alt="Vodafone Logo" class="logo">
+        <a href="index.html">← Back to Achievements</a>
+    </div>
+
+    <div class="container detail-content">
+        <h2>🚀 Digital Transformation Project: Self-Service Platform Rollout</h2>
+
+        <h4>My Role & Responsibilities</h4>
+        <p><strong>Project Lead, cross-functional.</strong> Managed a dedicated team of 15 engineers, designers, and marketing specialists. Oversaw budget tracking (€1.2M) and stakeholder management across three departments (IT, Commercial, and Customer Care).</p>
+
+        <h4>Challenge</h4>
+        <p>Our existing platform had a **low self-service resolution rate (25%)** and high volume of calls, costing approximately **€5 per interaction**. The objective was to create a mobile-first digital channel to empower customers and reduce operational expenditure.</p>
+
+        <h4>Actions Taken</h4>
+        <ul>
+            <li>Implemented a **Scrum/Agile framework** to deliver minimum viable products (MVPs) every two weeks for rapid testing.</li>
+            <li>Conducted over 50 hours of customer interviews to map key pain points and build a truly intuitive interface.</li>
+            <li>Worked with IT to integrate the new platform with three legacy billing and CRM systems, ensuring data accuracy.</li>
+        </ul>
+
+        <div class="result-box">
+            <h4>Quantifiable Results & Impact</h4>
+            <p><strong>Customer Migration:</strong> Successfully onboarded **500,000+** customers in the first six months.</p>
+            <p><strong>Cost Savings:</strong> Reduced inbound customer service calls by **35%**, resulting in **€2.1M in annualized savings**.</p>
+            <p><strong>Efficiency:</strong> Increased the self-service resolution rate from 25% to **65%**.</p>
+        </div>
+    </div>
+</body>
+</html>
