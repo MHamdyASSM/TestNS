@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio - [Your Name]</title>
+    <title>Professional Portfolio - [Nouran Sayed]</title>
     <style>
         /* Basic Reset and Variables */
         :root {
@@ -122,12 +122,12 @@
 <body>
     <div class="header">
         <img src="vodafone_logo.png" alt="Vodafone Logo" class="logo">
-        <h1>[Your Name]</h1>
+        <h1>[Nouran Sayed]</h1>
     </div>
 
     <div class="container">
         <div class="intro">
-            <h2>Welcome! I'm [Your Name]</h2>
+            <h2>Welcome! I'm [Nouran Sayed]</h2>
             <p>Senior Manager specializing in **Digital Transformation** and **Operational Efficiency**. Driving high-impact, cross-functional projects within Vodafone.</p>
         </div>
 
@@ -167,3 +167,4 @@
     </div>
 </body>
 </html>
+
